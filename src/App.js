@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import me from './me.jpg';
 import './App.css';
+import Bio from './bio'
 
 function App() {
   return (
@@ -17,29 +17,8 @@ function App() {
         <div>Contact</div>
       </div>
 
-      <div className='container'>
-      <img src={me} className="me" alt="me" />
-        <div className='bio'>
-          <ul>
-            <li>
-            <h2>Name     : Muhammad Ripqi</h2> 
-            </li>
-            <li>
-            <h2>Birth    : Ciamis, West Java</h2> 
-            </li>
-            <li>
-            <h2>Location : Medan</h2> 
-            </li>
-            <li>
-            <h2>Job      : Developer</h2> 
-            </li>
-            <li>
-            <h2>Likes    : Cat, Games, Novel</h2>
-            </li>
-          </ul>
-    
-        </div>
-      </div>
+      <Bio />
+      
     </div>
 
   );
